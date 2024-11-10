@@ -1,0 +1,133 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .topSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #132043;
+    color: white;
+    position: relative;
+    text-align: center;
+  }
+  
+  .centerText h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  .uploadButtonWrapper {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+  }
+  
+  .uploadButton {
+    background-color: #EAEEFE;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .uploadButton:hover {
+    background-color: #050e25;
+  }
+  
+  .chatContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; 
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .inputWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input {
+    padding: 10px;
+    width: 500px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border-color: grey;
+    border-width: 2px;
+  }
+  
+  .sendButton {
+    padding: 10px 20px;
+    background-color: #132043;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 15px;
+  }
+
+  .sendButton:hover {
+    background-color: #050e25;
+  }
+  
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+  }
+  
+  .modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .textArea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border-color: grey;
+    border-width: 2px;
+    border-radius: 5px;
+  }
+  
+  .submitButton {
+    background-color: #132043;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .submitButton:hover {
+    background-color: #050e25;
+  }
+  
